@@ -1,1 +1,11 @@
-@import 'tailwindcss'
+@import 'tailwindcss';
+
+@theme{
+    --color-theme-primary: oklch(0% 0 0);
+    --color-theme-secondary: oklch(80% 0 0);
+
+}
+
+html, body {
+  @apply bg-theme-primary text-theme-secondary;
+}
