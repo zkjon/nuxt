@@ -1,6 +1,9 @@
 <template>
-  <main class="h-screen flex items-center justify-center flex-col">
-    <h1 class="text-3xl font-bold">This is my personal website</h1>
-    <TODO></TODO>
-  </main>
+  <section class="p-90 flex-col">
+    <h1 class="text-4xl font-bold text-center">Welcome to my NUXT Template</h1>
+    <div class="flex justify-center">
+      <DemoButton href="https://github.com/zkjon/nuxt-template"> ⭐Star me on github </DemoButton>
+    </div>
+  </section>
+    <Footer />
 </template>
