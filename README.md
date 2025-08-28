@@ -8,7 +8,6 @@ A modern Nuxt.js template with essential configurations and best practices.
 - 🎨 Tailwind CSS
 - 🔒 TypeScript support
 - 📦 Auto-imports
-- 🧪 Testing setup
 
 ## Getting Started
 
@@ -39,7 +38,6 @@ bun dev
 - `pages/` - Nuxt pages
 - `public/` - Static assets
 - `server/` - Server-side code
-- `tailwind.config.js` - Tailwind CSS configuration
 - `nuxt.config.ts` - Nuxt configuration
 
 ## Contributing
